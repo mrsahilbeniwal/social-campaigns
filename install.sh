@@ -2,11 +2,11 @@
 
 # Social Campaign — Installer
 # Detects your AI coding tool and drops the skill into the right folder.
-# Usage: curl -fsSL https://raw.githubusercontent.com/mrsahilbeniwal/social-campaign/main/install.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/mrsahilbeniwal/social-campaigns/main/install.sh | bash
 
 set -e
 
-REPO="https://github.com/mrsahilbeniwal/social-campaign.git"
+REPO="https://github.com/mrsahilbeniwal/social-campaigns.git"
 SKILL_NAME="social-campaign"
 VERSION="1.0.0"
 
@@ -209,7 +209,7 @@ elif [ "$1" = "--help" ] || [ "$1" = "-h" ]; then
     echo "  --help      Show this message"
     echo ""
     echo "One-liner:"
-    echo "  curl -fsSL https://raw.githubusercontent.com/mrsahilbeniwal/social-campaign/main/install.sh | bash"
+    echo "  curl -fsSL https://raw.githubusercontent.com/mrsahilbeniwal/social-campaigns/main/install.sh | bash"
     exit 0
 else
     detect_platforms

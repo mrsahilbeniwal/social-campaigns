@@ -1,10 +1,10 @@
 # Social Campaign — Windows Installer
 # Detects your AI coding tool and drops the skill into the right folder.
-# Usage: irm https://raw.githubusercontent.com/mrsahilbeniwal/social-campaign/main/install.ps1 | iex
+# Usage: irm https://raw.githubusercontent.com/mrsahilbeniwal/social-campaigns/main/install.ps1 | iex
 
 $ErrorActionPreference = "Stop"
 $Version = "1.0.0"
-$Repo = "https://github.com/mrsahilbeniwal/social-campaign.git"
+$Repo = "https://github.com/mrsahilbeniwal/social-campaigns.git"
 $SkillName = "social-campaign"
 
 function Write-Banner {
@@ -124,7 +124,7 @@ switch ($mode) {
         Write-Host "  --help      Show this message"
         Write-Host ""
         Write-Host "One-liner:"
-        Write-Host "  irm https://raw.githubusercontent.com/mrsahilbeniwal/social-campaign/main/install.ps1 | iex"
+        Write-Host "  irm https://raw.githubusercontent.com/mrsahilbeniwal/social-campaigns/main/install.ps1 | iex"
         exit 0
     }
     default {

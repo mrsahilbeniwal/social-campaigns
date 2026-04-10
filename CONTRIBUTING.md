@@ -7,7 +7,7 @@ First off — **thank you** for considering contributing to Social Campaign! Thi
 There are many ways to contribute, and not all of them involve writing code:
 
 ### 💡 Share Ideas
-- Open a [Feature Request](https://github.com/mrsahilbeniwal/social-campaign/issues/new?template=feature_request.md) with your idea
+- Open a [Feature Request](https://github.com/mrsahilbeniwal/social-campaigns/issues/new?template=feature_request.md) with your idea
 - Suggest new prompt templates, caption frameworks, or platform specs
 - Share what worked (or didn't work) when you used the skill
 

@@ -10,7 +10,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Made with AI](https://img.shields.io/badge/Made%20with-AI%20Agents-blueviolet)](#compatible-platforms)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
-[![Stars](https://img.shields.io/github/stars/mrsahilbeniwal/social-campaign?style=social)](https://github.com/mrsahilbeniwal/social-campaign)
+[![Stars](https://img.shields.io/github/stars/mrsahilbeniwal/social-campaigns?style=social)](https://github.com/mrsahilbeniwal/social-campaigns)
 
 [Quick Install](#-quick-install) · [Commands](#commands) · [How It Works](#-how-it-works) · [Examples](#-real-world-examples) · [Docs](docs/) · [Contributing](#-contributing)
 
@@ -61,17 +61,17 @@ One command. It detects your AI coding tool and drops the skill in the right pla
 
 **Mac / Linux:**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/mrsahilbeniwal/social-campaign/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/mrsahilbeniwal/social-campaigns/main/install.sh | bash
 ```
 
 **Windows (PowerShell):**
 ```powershell
-irm https://raw.githubusercontent.com/mrsahilbeniwal/social-campaign/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/mrsahilbeniwal/social-campaigns/main/install.ps1 | iex
 ```
 
 **Or install manually:**
 ```bash
-git clone https://github.com/mrsahilbeniwal/social-campaign.git
+git clone https://github.com/mrsahilbeniwal/social-campaigns.git
 cp -r social-campaign ~/.agents/skills/   # global — works with most tools
 # or
 cp -r social-campaign ~/.claude/skills/   # Claude Code specifically
@@ -311,8 +311,8 @@ Check out [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## 💬 Community
 
-- **Issues:** Found a bug or have a feature request? [Open an issue](https://github.com/mrsahilbeniwal/social-campaign/issues)
-- **Discussions:** Want to share results, ask questions, or suggest improvements? [Start a discussion](https://github.com/mrsahilbeniwal/social-campaign/discussions)
+- **Issues:** Found a bug or have a feature request? [Open an issue](https://github.com/mrsahilbeniwal/social-campaigns/issues)
+- **Discussions:** Want to share results, ask questions, or suggest improvements? [Start a discussion](https://github.com/mrsahilbeniwal/social-campaigns/discussions)
 - **Twitter/X:** Share your campaigns with `#SocialCampaignAI` — I'd love to see what you build
 
 ## ⭐ Star History

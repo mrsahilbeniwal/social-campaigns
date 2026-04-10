@@ -9,7 +9,7 @@ However, if you discover a security concern — such as instructions that could 
 - Malicious prompt injection vectors
 - Instructions that could compromise user systems
 
-Please report it by [opening a private security advisory](https://github.com/mrsahilbeniwal/social-campaign/security/advisories/new) or emailing the maintainer directly.
+Please report it by [opening a private security advisory](https://github.com/mrsahilbeniwal/social-campaigns/security/advisories/new) or emailing the maintainer directly.
 
 ## Scope
 
