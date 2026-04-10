@@ -19,11 +19,12 @@ Best for: Any post, any platform. This is the default.
 ```
 
 **Example:**
+
 ```
 Your competitors are posting 5x a week. You're posting once a month. 😬
 
-Here's the thing — consistency beats perfection. Every single time. 
-The brands winning on social aren't the ones with the biggest budgets. 
+Here's the thing — consistency beats perfection. Every single time.
+The brands winning on social aren't the ones with the biggest budgets.
 They're the ones who show up, even when it's not perfect.
 
 What's your current posting frequency? Be honest 👇
@@ -50,15 +51,16 @@ Best for: Product posts, educational content, pain-point-driven industries.
 ```
 
 **Example:**
+
 ```
-You spend 3 hours making a social media post. It gets 12 likes. 
+You spend 3 hours making a social media post. It gets 12 likes.
 Your intern gets 10K views on a meme they made in 5 minutes.
 
-It's not about effort. It's about strategy. Most brands create 
-content for themselves, not for their audience. They post what 
+It's not about effort. It's about strategy. Most brands create
+content for themselves, not for their audience. They post what
 THEY think is cool instead of what their followers actually need.
 
-We built [Product] to fix exactly this — AI that understands your 
+We built [Product] to fix exactly this — AI that understands your
 audience and creates content they actually want to engage with.
 
 Try it free → link in bio
@@ -87,18 +89,19 @@ Best for: Personal branding, behind-the-scenes, brand stories, LinkedIn.
 ```
 
 **Example:**
+
 ```
 Two years ago, I was a developer who hated marketing.
 
-I'd built this beautiful product — spent 8 months coding it, 
-designing it, making it perfect. Then I launched it on Product 
+I'd built this beautiful product — spent 8 months coding it,
+designing it, making it perfect. Then I launched it on Product
 Hunt and... crickets. 47 views. 2 upvotes (one was my mom).
 
-That day I realized: building a great product isn't enough. 
+That day I realized: building a great product isn't enough.
 You have to learn to TALK about it.
 
-So I did. I started posting. Badly at first. But consistently. 
-Six months later, that same product had 10,000 users — all from 
+So I did. I started posting. Badly at first. But consistently.
+Six months later, that same product had 10,000 users — all from
 social media.
 
 Your product deserves to be seen. Don't let it die in silence.
@@ -116,7 +119,7 @@ Best for: Tips, tools, resources, value-packed posts that get saved/shared.
 [X] [Topic/Category] that [benefit/outcome]:
 
 1️⃣ [Item 1] — [brief why]
-2️⃣ [Item 2] — [brief why]  
+2️⃣ [Item 2] — [brief why]
 3️⃣ [Item 3] — [brief why]
 4️⃣ [Item 4] — [brief why]
 5️⃣ [Item 5] — [brief why]
@@ -127,6 +130,7 @@ Which one are you trying first?
 ```
 
 **Example:**
+
 ```
 5 free tools that replaced my $500/month marketing stack:
 
@@ -160,11 +164,12 @@ Best for: Thought leadership, debate starters, engagement drivers. Use on Twitte
 ```
 
 **Example:**
+
 ```
 Most social media "strategies" are just vibes with a calendar.
 
-Real strategy means knowing WHY you're posting each piece. What 
-business goal does it serve? What audience need does it meet? 
+Real strategy means knowing WHY you're posting each piece. What
+business goal does it serve? What audience need does it meet?
 What competitor gap does it fill?
 
 Sure, consistency matters. But consistent mediocrity is still mediocrity.
@@ -225,12 +230,14 @@ Best for: Twitter/X, quick Instagram captions, daily tips.
 ## Platform-Specific Adaptations
 
 ### Instagram
+
 - Front-load the hook — first 125 characters show before "more"
 - Use line breaks between paragraphs (no walls of text)
 - Put hashtags in a comment OR after line breaks at the bottom
 - Emojis as visual anchors, not decoration
 
 ### LinkedIn
+
 - First 2 lines are critical — they determine if people click "see more"
 - Short paragraphs (1-2 sentences each) for mobile readability
 - Professional but not corporate — personal stories outperform
@@ -238,12 +245,14 @@ Best for: Twitter/X, quick Instagram captions, daily tips.
 - Tag relevant people and companies (when genuine, not spammy)
 
 ### Twitter / X
+
 - Every word counts at 280 characters
 - Threads for long-form: each tweet should work standalone AND as part of the thread
 - First tweet of a thread is the hook — if it doesn't slap, nobody reads tweet 2
 - Quote tweets > replies for visibility
 
 ### TikTok
+
 - Captions support the video, they don't replace it
 - First 3 words must be compelling (they appear on the thumbnail)
 - Use trending sounds and effects when they fit the brand

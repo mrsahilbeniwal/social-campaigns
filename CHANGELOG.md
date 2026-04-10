@@ -11,6 +11,7 @@ Initial public release.
 ### Added
 
 Core Skill (SKILL.md)
+
 - 5-phase campaign workflow: Brand Audit, Competitor Intelligence, Content Strategy, Content Generation, Iteration
 - 6 campaign modes: Full Campaign, Product Launch, Content Refresh, Single Post, Competitor Spy, Repurpose
 - 12 commands with natural language triggers and smart dependency handling
@@ -22,6 +23,7 @@ Core Skill (SKILL.md)
 - Quality checklist with 20+ verification items
 
 Reference Library
+
 - `platform-specs.md` — Image dimensions, character limits, and best practices for 6 platforms
 - `prompt-templates.md` — 8 image generation prompt templates
 - `content-pillars.md` — Industry-specific pillar templates for 5 verticals
@@ -29,11 +31,13 @@ Reference Library
 - `caption-frameworks.md` — 8 caption frameworks, 10 hook templates, platform-specific adaptations
 
 Installation
+
 - One-liner install scripts for Mac/Linux and Windows
 - Auto-detection of AI coding platforms (Claude Code, Cursor, Windsurf, Antigravity, Cline)
 - Manual install instructions
 
 ### Compatibility
+
 - Claude Code — full support
 - Google Antigravity / Kilo — full support
 - Cursor — full support

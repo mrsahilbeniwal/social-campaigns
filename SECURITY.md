@@ -5,6 +5,7 @@
 Social Campaign is an AI skill made up of markdown files and reference documents. It doesn't contain executable code, access sensitive data, or make network requests on its own.
 
 That said, if you find a security concern — such as instructions that could lead to:
+
 - Unintended data exposure
 - Prompt injection vectors
 - Instructions that could compromise user systems
@@ -14,6 +15,7 @@ Please report it by [opening a private security advisory](https://github.com/mrs
 ## Scope
 
 This project contains:
+
 - Markdown instruction files (`.md`)
 - Shell/PowerShell install scripts
 - No API keys or credentials

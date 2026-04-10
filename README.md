@@ -2,7 +2,7 @@
 
 # Social Campaign
 
-### Turn your codebase into social media content.
+## Turn your codebase into social media content
 
 An AI skill that scans your project, understands your brand, researches competitors, builds a marketing strategy, and generates ready-to-post content — from inside your IDE.
 
@@ -37,6 +37,7 @@ This skill doesn't ask. It reads.
 It scans your codebase — CSS files, Tailwind config, landing page copy, pricing page, README, meta tags — and extracts your brand. Colors, fonts, voice, products, value proposition. Everything.
 
 Then it goes further:
+
 - Researches your competitors — finds them, analyzes their social presence, spots gaps
 - Builds a real strategy — not "post 3 times a week" advice, but something tailored to your brand and market
 - Generates actual content — images, captions, hashtags, posting schedules, platform-specific adaptations
@@ -58,16 +59,19 @@ Then it goes further:
 One command. It detects your AI coding tool and drops the skill in the right place.
 
 Mac / Linux:
+
 ```bash
 curl -fsSL https://raw.githubusercontent.com/mrsahilbeniwal/social-campaigns/main/install.sh | bash
 ```
 
 Windows (PowerShell):
+
 ```powershell
 irm https://raw.githubusercontent.com/mrsahilbeniwal/social-campaigns/main/install.ps1 | iex
 ```
 
 Or install manually:
+
 ```bash
 git clone https://github.com/mrsahilbeniwal/social-campaigns.git
 cp -r social-campaign ~/.agents/skills/   # global — works with most tools
@@ -171,23 +175,29 @@ Social Campaign follows a 5-phase process. There's a human checkpoint between ea
               └─────────────────────────┘
 ```
 
-### Phase 1: Brand Audit
+### Phase 1 — Brand Audit
+
 The AI reads your code like a brand strategist reads a brand book:
+
 - Colors from your CSS, Tailwind config, or design tokens
 - Typography from your font imports and CSS declarations
 - Voice and tone from your landing page copy, meta descriptions, and README
 - Products and pricing from your feature sections and pricing pages
 - Target audience inferred from your copy, pricing tiers, and use cases
 
-### Phase 2: Competitor Intelligence
+### Phase 2 — Competitor Intelligence
+
 Using web search, it finds your top 3-5 competitors and analyzes:
+
 - What platforms they're on and how active they are
 - What content types get them the most engagement
 - Where they're strong and where they're weak
 - The white space — opportunities nobody is filling
 
-### Phase 3: Content Strategy
+### Phase 3 — Content Strategy
+
 Combining brand DNA and competitive insights, it creates:
+
 - Platform-specific strategy (which platforms and why)
 - Content pillars (4-5 recurring themes)
 - A sample 2-week content calendar
@@ -195,15 +205,18 @@ Combining brand DNA and competitive insights, it creates:
 - Caption guidelines matching your brand voice
 - KPIs and goals to track progress
 
-### Phase 4: Content Generation
+### Phase 4 — Content Generation
+
 Using AI image generation, it produces:
+
 - On-brand visuals for every post in the calendar
 - Platform-optimized captions with Hook, Value, CTA structure
 - Alt text for accessibility
 - Platform-specific adaptations (same content, different format)
 - Organized in a clean directory structure
 
-### Phase 5: Iteration and Optimization
+### Phase 5 — Iteration and Optimization
+
 - A/B test variants of high-priority posts
 - Repurpose content across platforms
 - Multi-language adaptations
@@ -254,6 +267,7 @@ Social Campaign works with any AI coding assistant that supports skills:
 ### How It Adapts
 
 The skill detects what tools are available and adjusts:
+
 - Has `generate_image`? Generates images directly
 - Has Stitch MCP? Creates social posts as design screens
 - Has `search_web`? Does real competitor research
@@ -263,21 +277,25 @@ The skill detects what tools are available and adjusts:
 ## Real-World Examples
 
 ### SaaS Product
+
 > "Create a social media campaign for my project management tool"
 
 The skill scans the codebase, discovers it's a React app with a blue/white color scheme, finds the tagline "Ship faster, together", identifies three pricing tiers, and creates a LinkedIn + Twitter strategy focused on productivity tips, feature spotlights, and developer culture content.
 
 ### E-Commerce Store
+
 > "I need Instagram content for my sustainable fashion brand"
 
 It reads the Shopify/Next.js codebase, extracts the earthy green/cream palette, discovers 47 product listings, finds customer testimonials embedded in the site, and generates a carousel-heavy Instagram strategy with lifestyle photography prompts and eco-conscious messaging.
 
 ### Open Source Project
+
 > "Help me promote my open source CLI tool on Twitter"
 
 It reads the README, extracts feature highlights and usage examples, analyzes similar open-source tools' social presence, and creates a developer-focused Twitter strategy using code snippets, demo GIFs, and "how I built this" storytelling.
 
 ### Product Launch
+
 > "I'm launching v2.0 next week — create a launch campaign"
 
 It scans the changelog for v2.0 features, understands the existing brand from v1, and generates a complete 14-day launch sequence: mystery teasers, sneak peeks, countdown, launch day blitz, feature deep-dives, early results celebration.
@@ -299,6 +317,7 @@ Want to go deeper? Check out the [docs/](docs/) folder for [advanced usage](docs
 ## Contributing
 
 I'd love your help making this better. Whether it's:
+
 - Reporting a bug or suggesting a feature
 - Adding new prompt templates or caption frameworks
 - Adding support for more platforms (Threads, Bluesky, Mastodon)

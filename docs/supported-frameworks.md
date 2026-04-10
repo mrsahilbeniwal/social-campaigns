@@ -87,6 +87,7 @@ The skill doesn't just grep for hex colors. It understands modern frontend archi
 ### Backend-Only Projects (Go, Rust, Java, etc.)
 
 The skill won't find much visual brand identity in a pure backend codebase. Instead, it focuses on:
+
 - README.md, documentation, and comments for voice/tone
 - Package metadata for product description
 - API docs for feature lists
@@ -114,6 +115,7 @@ The skill always produces output. It just produces better output when your proje
 ## Adding Support for New Frameworks
 
 If you work with a framework not listed here and the brand scanner misses important files, open an issue with:
+
 1. The framework name and version
 2. Where your design tokens / theme / brand assets live
 3. Example file paths and content structure

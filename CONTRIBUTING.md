@@ -7,16 +7,19 @@ Thanks for considering a contribution. This project exists because marketing sho
 Not everything requires code.
 
 ### Share Ideas
+
 - Open a [Feature Request](https://github.com/mrsahilbeniwal/social-campaigns/issues/new?template=feature_request.md) with your idea
 - Suggest new prompt templates, caption frameworks, or platform specs
 - Share what worked (or didn't) when you used the skill
 
 ### Report Bugs
+
 - If a prompt template produces poor results, let us know
 - If the skill misses important brand elements during scanning, report it
 - If platform specs are outdated (social media platforms change constantly), flag it
 
 ### Improve Content
+
 - Add prompt templates for new post types
 - Add content pillar templates for new industries
 - Add caption frameworks you've tested and proven
@@ -24,11 +27,13 @@ Not everything requires code.
 - Improve the SKILL.md instructions for clarity
 
 ### Expand Coverage
+
 - Add support for new platforms (Threads, Bluesky, Mastodon, WeChat, etc.)
 - Add language support and localization guides
 - Add region-specific marketing playbooks
 
 ### Share Results
+
 - If you've used Social Campaign and got real results, share your experience
 - Before/after engagement metrics help us understand what works
 - Screenshots of generated campaigns (anonymized if needed) help others
@@ -51,6 +56,7 @@ git checkout -b feature/your-feature-name
 ### 3. Make Your Changes
 
 A few guidelines:
+
 - SKILL.md: Keep it under 500 lines. If adding features, put details in a reference file instead.
 - Reference files: Each file should cover one topic well.
 - Markdown formatting: Match the existing style (tables, code blocks, examples).
@@ -59,6 +65,7 @@ A few guidelines:
 ### 4. Test Your Changes
 
 If you're updating prompt templates or caption frameworks:
+
 - Try them with an actual AI agent (Claude Code, Cursor, etc.)
 - Verify the generated content is reasonable quality
 - Test with at least 2 different project types (e.g., SaaS + e-commerce)
@@ -73,12 +80,14 @@ If you're updating prompt templates or caption frameworks:
 ## Style Guide
 
 ### Writing Style
+
 - Be conversational — Write like you're explaining to a friend, not writing a textbook.
 - Be specific — "Use 1080x1350px for Instagram portrait posts" beats "Use the right dimensions".
 - Be practical — Every addition should be actionable, not theoretical.
 - Show examples — Fill-in-the-blank templates are better than abstract advice.
 
 ### File Organization
+
 ```
 social-campaign/
 ├── SKILL.md                  # Main skill instructions (keep < 500 lines)
@@ -95,6 +104,7 @@ social-campaign/
 ```
 
 ### Naming Conventions
+
 - Files: `kebab-case.md`
 - Headers: Title Case for H2, Sentence case for H3+
 - Templates: Use `[brackets]` for fill-in-the-blank sections

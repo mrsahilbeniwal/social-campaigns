@@ -4,7 +4,7 @@ Step-by-step content sequences for different campaign types. Each playbook defin
 
 ---
 
-## 🚀 Product Launch Campaign
+## Product Launch Campaign
 
 A structured 14-day sequence to build anticipation, launch with impact, and sustain momentum.
 
@@ -24,7 +24,7 @@ A structured 14-day sequence to build anticipation, launch with impact, and sust
 
 | Timing | Post Type | Purpose |
 |--------|-----------|---------|
-| Morning | **Main announcement** | The big reveal post — hero image, key value prop, link | 
+| Morning | **Main announcement** | The big reveal post — hero image, key value prop, link |
 | Midday | **Feature breakdown** | Carousel or thread walking through top features |
 | Afternoon | **Founder's note** | Personal story about why this was built — humanize |
 | Evening | **Launch day recap** | Thank the community, share early numbers/reactions |
@@ -42,6 +42,7 @@ A structured 14-day sequence to build anticipation, launch with impact, and sust
 | +7 | **Week 1 results** | Share metrics, milestones, community size, early wins |
 
 ### Image Generation Notes for Launch Campaigns
+
 - **Teasers:** Use blurred backgrounds, silhouettes, strategic crops that hide most of the product
 - **Reveal posts:** Dramatic, high-impact — think product photography lighting
 - **Feature posts:** Clean, focused — one feature per image, no clutter
@@ -50,7 +51,7 @@ A structured 14-day sequence to build anticipation, launch with impact, and sust
 
 ---
 
-## 📅 Always-On / Evergreen Campaign
+## Always-On / Evergreen Campaign
 
 For brands that need a sustainable, repeatable content rhythm. This is the default mode for ongoing social media management.
 
@@ -67,7 +68,9 @@ Sunday    → REST or Content preview for next week
 ```
 
 ### Monthly Themes
+
 Layer monthly themes on top of the weekly rhythm:
+
 - **Month 1:** Brand awareness (who we are, what we stand for)
 - **Month 2:** Education (become the go-to resource in your niche)
 - **Month 3:** Social proof (let customers do the talking)
@@ -75,13 +78,14 @@ Layer monthly themes on top of the weekly rhythm:
 - **Repeat with seasonal variations**
 
 ### Refresh Cadence
+
 - Swap out pillar emphasis every 4-6 weeks based on performance
 - Introduce one new content format per month (e.g., memes, polls, AMAs)
 - Re-audit competitors quarterly
 
 ---
 
-## 🎄 Seasonal / Event Campaign
+## Seasonal / Event Campaign
 
 For holidays, industry events, conferences, Black Friday, New Year, etc.
 
@@ -96,6 +100,7 @@ For holidays, industry events, conferences, Black Friday, New Year, etc.
 | **Reflect** | 1 week after | Results shared, lessons learned, community appreciation |
 
 ### Visual Approach for Seasonal Campaigns
+
 - Keep brand identity recognizable but add seasonal flavor
 - Use seasonal color accents (don't abandon brand palette entirely)
 - Themed overlays, frames, or borders rather than complete style changes
@@ -103,7 +108,7 @@ For holidays, industry events, conferences, Black Friday, New Year, etc.
 
 ---
 
-## 🔥 Engagement / Growth Campaign
+## Engagement / Growth Campaign
 
 Focused on growing followers and building community, not direct sales.
 
@@ -121,7 +126,7 @@ Focused on growing followers and building community, not direct sales.
 
 ---
 
-## 🆘 Crisis Response Framework
+## Crisis Response Framework
 
 When something goes wrong — outage, PR issue, negative viral moment.
 
@@ -146,5 +151,6 @@ When something goes wrong — outage, PR issue, negative viral moment.
    - Address it once more if asked, then move forward
 
 ### Tone During Crisis
+
 - **DO:** Be human, be honest, be fast, be empathetic
 - **DON'T:** Be defensive, go silent, blame others, delete comments, joke about it

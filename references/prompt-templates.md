@@ -75,7 +75,8 @@ Do NOT include: overly staged elements, corporate stock-photo feel, harsh lighti
 
 For carousel posts, generate each slide individually with consistent styling:
 
-### Slide 1 (Cover/Hook):
+### Slide 1 — Cover/Hook
+
 ```
 A bold cover slide for a [Platform] carousel, [dimensions].
 [Primary color] (#hex) background with large white text: "[Hook question or statement]".
@@ -84,7 +85,8 @@ Clean, minimal — designed to stop the scroll and invite a swipe.
 Brand logo watermark in corner at 30% opacity.
 ```
 
-### Slides 2-N (Content):
+### Slides 2-N — Content
+
 ```
 Content slide [N] for a [Platform] carousel, [dimensions].
 [Background color] (#hex) background, consistent with the cover slide styling.
@@ -94,7 +96,8 @@ Optional: small icon or illustration reinforcing the point.
 Visual consistency with previous slides — same margins, font sizes, spacing.
 ```
 
-### Final Slide (CTA):
+### Final Slide — CTA
+
 ```
 Final CTA slide for a [Platform] carousel, [dimensions].
 [Accent color] (#hex) background for visual contrast — signaling the end.
