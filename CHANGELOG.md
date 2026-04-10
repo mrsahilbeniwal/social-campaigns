@@ -2,44 +2,42 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [1.0.0] - 2026-04-10
 
-### 🎉 Initial Release
-
-The first public release of Social Campaign — an AI skill that turns your codebase into a social media content engine.
+Initial public release.
 
 ### Added
 
-**Core Skill (SKILL.md)**
-- 5-phase campaign workflow: Brand Audit → Competitor Intelligence → Content Strategy → Content Generation → Iteration
+Core Skill (SKILL.md)
+- 5-phase campaign workflow: Brand Audit, Competitor Intelligence, Content Strategy, Content Generation, Iteration
 - 6 campaign modes: Full Campaign, Product Launch, Content Refresh, Single Post, Competitor Spy, Repurpose
+- 12 commands with natural language triggers and smart dependency handling
 - 4-layer brand scanning system (Identity, Visual, Product Intelligence, Content Assets)
 - Environment-adaptive execution (works with or without image generation / web search tools)
 - A/B variant generation for high-priority posts
-- Content repurposing matrix (blog → social, changelog → social, etc.)
+- Content repurposing matrix (blog to social, changelog to social, etc.)
 - Multi-language campaign support
 - Quality checklist with 20+ verification items
 
-**Reference Library**
-- `platform-specs.md` — Image dimensions, character limits, and best practices for Instagram, LinkedIn, Twitter/X, Facebook, TikTok, and Pinterest
-- `prompt-templates.md` — 8 image generation prompt templates (product showcase, feature highlight, testimonial, announcement, behind-the-scenes, carousel, comparison, statistics)
-- `content-pillars.md` — Industry-specific pillar templates for E-Commerce, SaaS, Agency, Personal Brand, and Local Business
-- `campaign-types.md` — Campaign playbooks for Product Launch (14-day sequence), Always-On, Seasonal/Event, Engagement/Growth, and Crisis Response
-- `caption-frameworks.md` — 8 caption writing frameworks (Hook→Value→CTA, PAS, Story Arc, List, Bold Claim, Transformation, Question Lead, Micro-Value Drop) plus 10 hook templates and platform-specific adaptations
+Reference Library
+- `platform-specs.md` — Image dimensions, character limits, and best practices for 6 platforms
+- `prompt-templates.md` — 8 image generation prompt templates
+- `content-pillars.md` — Industry-specific pillar templates for 5 verticals
+- `campaign-types.md` — Campaign playbooks for 5 campaign types
+- `caption-frameworks.md` — 8 caption frameworks, 10 hook templates, platform-specific adaptations
 
-**GitHub Presence**
-- Comprehensive README with installation, usage, examples, and compatibility matrix
-- MIT License (Copyright Sahil Beniwal)
-- Contributing guidelines
-- GitHub issue and PR templates
+Installation
+- One-liner install scripts for Mac/Linux and Windows
+- Auto-detection of AI coding platforms (Claude Code, Cursor, Windsurf, Antigravity, Cline)
+- Manual install instructions
 
 ### Compatibility
-- Claude Code ✅
-- Google Antigravity / Kilo ✅
-- Cursor ✅
-- Windsurf ✅
-- Cline (VS Code) ✅
-- Aider ⚠️ (no image gen)
-- GitHub Copilot ⚠️ (limited tools)
+- Claude Code — full support
+- Google Antigravity / Kilo — full support
+- Cursor — full support
+- Windsurf — full support
+- Cline (VS Code) — full support
+- Aider — partial (no image gen)
+- GitHub Copilot — partial (limited tools)

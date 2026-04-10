@@ -1,4 +1,4 @@
-# Supported Frameworks & Stacks
+# Supported Frameworks and Stacks
 
 Social Campaign works with any codebase, but it knows some frameworks better than others. Here's what it scans, where it looks, and what it extracts.
 
@@ -6,15 +6,15 @@ Social Campaign works with any codebase, but it knows some frameworks better tha
 
 ## How the Brand Scanner Works
 
-The skill doesn't just grep for hex colors. It understands modern frontend architecture. It looks for design tokens, component libraries, and structured theming — then falls back to raw CSS analysis if those aren't present.
+The skill doesn't just grep for hex colors. It understands modern frontend architecture — design tokens, component libraries, structured theming. If those aren't present, it falls back to raw CSS analysis.
 
 ### Scan Priority (highest to lowest)
 
-1. **Design tokens** — Tailwind config, theme files, CSS custom properties
-2. **Component library config** — Material UI theme, Chakra theme, Shadcn config
-3. **Stylesheets** — CSS files, SCSS, global styles
-4. **Package metadata** — package.json, README, meta tags
-5. **Content files** — Landing page copy, about pages, pricing text
+1. Design tokens — Tailwind config, theme files, CSS custom properties
+2. Component library config — Material UI theme, Chakra theme, Shadcn config
+3. Stylesheets — CSS files, SCSS, global styles
+4. Package metadata — package.json, README, meta tags
+5. Content files — Landing page copy, about pages, pricing text
 
 ---
 
@@ -28,8 +28,8 @@ The skill doesn't just grep for hex colors. It understands modern frontend archi
 | Typography / fonts | Google Fonts imports, `@font-face` declarations, font-family in theme |
 | Product info | `src/pages/index.*`, `src/app/page.*`, landing page components |
 | Pricing | Components with "pricing", "plans", or "tier" in the name |
-| Copy & tone | Hero sections, meta descriptions, README.md |
-| Images & logos | `public/` directory, `assets/`, imported images in components |
+| Copy and tone | Hero sections, meta descriptions, README.md |
+| Images and logos | `public/` directory, `assets/`, imported images in components |
 
 ### Vue / Nuxt
 
@@ -80,7 +80,7 @@ The skill doesn't just grep for hex colors. It understands modern frontend archi
 | What It Looks For | Where |
 |-------------------|-------|
 | Project identity | README.md, setup.py / pyproject.toml (name, description, author) |
-| Docs & copy | `docs/`, docstrings in main modules |
+| Docs and copy | `docs/`, docstrings in main modules |
 | API info | Route definitions, OpenAPI specs |
 | Static assets | `static/`, `templates/` |
 
@@ -100,14 +100,14 @@ The skill is designed to work with incomplete information. Here's the fallback c
 
 | If this is missing... | The skill does this... |
 |----------------------|----------------------|
-| No CSS / no colors found | Asks you for brand colors — or suggests a palette based on your industry |
+| No CSS / no colors found | Asks you for brand colors, or suggests a palette based on your industry |
 | No font imports | Defaults to clean, modern suggestions (Inter, DM Sans, etc.) |
 | No landing page copy | Reads README.md for product description and tone |
-| No product/pricing info | Asks you directly — "What does your product do? Who's it for?" |
+| No product/pricing info | Asks you directly: "What does your product do? Who's it for?" |
 | No images/logos | Notes that in the brand profile, generates content that works without a logo |
 | Raw backend API with no frontend | Extracts what it can from docs/README, asks for the rest |
 
-The point is — the skill always produces output. It just produces *better* output when your project has rich brand assets to scan.
+The skill always produces output. It just produces better output when your project has rich brand assets to scan.
 
 ---
 

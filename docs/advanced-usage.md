@@ -1,6 +1,6 @@
 # Advanced Usage
 
-Once you've run a basic campaign and understand the flow, here's how to squeeze more out of Social Campaign.
+Once you've run a basic campaign and understand the flow, here's how to get more out of Social Campaign.
 
 ---
 
@@ -12,13 +12,13 @@ You don't always need the full 5-phase workflow. Sometimes you just need one thi
 ```
 "I'm launching [product/feature] on [date]. Create a product launch campaign."
 ```
-This skips the general strategy and jumps straight into a time-sensitive launch sequence — teasers, countdown, launch day blitz, and post-launch follow-up.
+This skips the general strategy and goes straight into a time-sensitive launch sequence — teasers, countdown, launch day blitz, and post-launch follow-up.
 
 ### Competitor Spy (research only)
 ```
 "Analyze what my competitors are doing on social media. Don't generate any content yet."
 ```
-Great for when you want intel before committing to a strategy. You'll get a research doc with their strengths, weaknesses, posting frequency, and content gaps you can exploit.
+Good for when you want intel before committing to a strategy. You'll get a research doc with their strengths, weaknesses, posting frequency, and content gaps you can exploit.
 
 ### Single Post (one-off)
 ```
@@ -46,15 +46,15 @@ By default, the skill scans your entire project to extract brand identity. Somet
 
 ### Pointing to Specific Files
 ```
-"Run a brand audit but focus on our landing page (src/pages/index.tsx) 
+"Run a brand audit but focus on our landing page (src/pages/index.tsx)
 and our design tokens (styles/theme.ts)."
 ```
-This narrows the scan to the files that matter most, which is helpful in large monorepos.
+This narrows the scan to the files that matter most, which helps in large monorepos.
 
 ### Overriding Extracted Values
 After the brand profile is generated, you can correct anything before the skill moves on:
 ```
-"The brand voice should be more playful, not professional. 
+"The brand voice should be more playful, not professional.
 Also, our primary color is #4F46E5, not the blue you found."
 ```
 The skill saves the updated profile and uses it for all subsequent content.
@@ -72,11 +72,11 @@ If your project uses Tailwind, Material UI, Chakra, or any design system with ex
 
 For important posts, ask the skill to generate variants:
 ```
-"Create 3 variants of the launch announcement post — 
+"Create 3 variants of the launch announcement post —
 one bold and confident, one question-based, one story-driven."
 ```
 
-Each variant gets its own image and caption, clearly labeled (A, B, C). Post the best-performing one and learn what resonates with your audience.
+Each variant gets its own image and caption, labeled A, B, C. Post the best-performing one and learn what resonates with your audience.
 
 ---
 
@@ -84,11 +84,11 @@ Each variant gets its own image and caption, clearly labeled (A, B, C). Post the
 
 If you serve a global audience:
 ```
-"Adapt the campaign for Spanish-speaking audiences. 
+"Adapt the campaign for Spanish-speaking audiences.
 Keep the brand identity but adjust cultural references and idioms."
 ```
 
-The skill won't just translate — it'll adjust tone, references, hashtags, and even image text to fit the target audience. Cultural adaptation, not word-for-word translation.
+The skill won't just translate — it adjusts tone, references, hashtags, and even image text to fit the target audience. Cultural adaptation, not word-for-word translation.
 
 ---
 
@@ -98,12 +98,12 @@ Your codebase is full of content waiting to become social posts:
 
 | Source | What the skill extracts |
 |--------|------------------------|
-| **Changelog** | Feature announcements, update posts |
-| **Blog posts** (if in-repo) | Threads, carousels, quote cards |
-| **README** | Product explainers, "how it works" posts |
-| **Testimonials** (if embedded) | Social proof cards |
-| **Pricing page** | Comparison posts, value proposition graphics |
-| **Docs** | Tips, how-tos, educational threads |
+| Changelog | Feature announcements, update posts |
+| Blog posts (if in-repo) | Threads, carousels, quote cards |
+| README | Product explainers, "how it works" posts |
+| Testimonials (if embedded) | Social proof cards |
+| Pricing page | Comparison posts, value proposition graphics |
+| Docs | Tips, how-tos, educational threads |
 
 To trigger this:
 ```
@@ -137,9 +137,8 @@ Ask the skill to use named campaigns:
 
 ## Tips from Real Use
 
-Things that work well:
-- **Run brand audit once, reference it many times.** Don't redo the audit for every content batch.
-- **Edit the brand profile by hand.** The AI gets 80% right. The last 20% (your secret sauce) is yours to add.
-- **Use Competitor Spy before your first full campaign.** Having intel makes the strategy phase way sharper.
-- **Start with Single Post mode** if you've never used the skill. Get a feel for the output quality before committing to a full campaign.
-- **Review generated images before posting.** AI image gen is good but not perfect — some will need a re-roll or a tweak in the prompt.
+- Run brand audit once, reference it many times. Don't redo the audit for every content batch.
+- Edit the brand profile by hand. The AI gets 80% right. The last 20% is yours to add.
+- Use Competitor Spy before your first full campaign. Having intel makes the strategy phase sharper.
+- Start with Single Post mode if you've never used the skill. Get a feel for output quality before doing a full campaign.
+- Review generated images before posting. AI image generation is good but not perfect — some will need a re-roll or a tweak.
