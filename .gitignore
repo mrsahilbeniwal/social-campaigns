@@ -1,12 +1,13 @@
-# Generated content (user-specific, not part of the skill)
-social-campaign/brand-profile.md
-social-campaign/competitor-analysis.md
-social-campaign/content-strategy.md
-social-campaign/content/
-social-campaign/reports/
-social-campaign/assets/color-palette.md
-social-campaign/assets/hashtag-library.md
-social-campaign/image-prompts/
+# Generated content (created when users run the skill — not part of the repo)
+brand-profile.md
+competitor-analysis.md
+content-strategy.md
+content/
+reports/
+assets/color-palette.md
+assets/hashtag-library.md
+assets/caption-templates.md
+image-prompts/
 
 # OS
 .DS_Store
@@ -22,3 +23,4 @@ desktop.ini
 
 # Logs
 *.log
+
