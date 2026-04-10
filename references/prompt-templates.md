@@ -20,6 +20,7 @@ The viewer should understand [what revelation/idea] at first glance.
 ```
 
 **Example for a campaign concept "In a world where seeing isn't believing, proof is power":**
+
 - Product showcase: "This image visualizes the moment of verification — the instant uncertainty becomes certainty."
 - Data stat: "This image visualizes the scale of the problem — how much of what we see online can't be trusted."
 - Testimonial: "This image visualizes the relief of having proof — the comfort of knowing, not guessing."
@@ -35,12 +36,14 @@ EMOTION: The viewer should feel [specific emotion] — [one sentence describing 
 ```
 
 **Good emotional intents:**
+
 - "The viewer should feel a jolt of unease — the realization that they can't tell real from fake"
 - "The viewer should feel quiet confidence — the reassurance of having a tool that sees through deception"
 - "The viewer should feel urgency — the sense that this problem is getting worse every day"
 - "The viewer should feel curiosity — an itch to swipe and learn more"
 
 **Bad emotional intents (too vague):**
+
 - "Professional and modern" (that's a style, not an emotion)
 - "Engaging" (meaningless)
 - "Eye-catching" (describes the goal, not the feeling)

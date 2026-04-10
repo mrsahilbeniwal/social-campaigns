@@ -362,16 +362,19 @@ Read `references/prompt-templates.md` for image prompt formulas.
 Every post is a UNIT — the image and caption must tell the same story from two angles. This is what separates professional campaigns from generic branded content.
 
 Before creating either the image or caption for a post, define its **Core Moment** from the creative brief:
+
 - What is the ONE idea this post communicates?
 - The image shows it visually. The caption unpacks it verbally.
 - The first line of the caption should feel like a natural voice-over for the image.
 
 Bad example (disconnected):
+
 - Image: Generic branded graphic with product logo and colors
 - Caption: "Did you know 84% of images online are manipulated?"
 - Why it fails: The image says nothing about the statistic. They're two separate ideas wearing the same brand colors.
 
 Good example (cohesive):
+
 - Image: Split-screen — two identical photos side by side, one labeled "Real", one labeled "AI", visually indistinguishable
 - Caption: "One of these is real. One is AI. You can't tell the difference. Neither can most people. That's the problem."
 - Why it works: The image creates the question. The caption delivers the punchline. Together they create a moment.
@@ -407,6 +410,7 @@ Seasonal — themed variations, countdown, live coverage, recap.
 Generate ONLY the first post (Day 1 from the calendar) — image + full caption.
 
 Present it to the user as a preview of the campaign's creative direction:
+
 - Show the generated image
 - Show the complete caption with hashtags
 - Explain how this post connects to the campaign concept
@@ -430,6 +434,7 @@ DO NOT generate remaining posts until the user approves the creative direction.
 After creative direction approval, generate remaining posts in batches of 3-4 posts. Maintain visual and thematic consistency with the approved first post.
 
 For each batch, verify against the Visual Identity System:
+
 - Does every image use the recurring motif?
 - Do the color usage rules hold?
 - Does the typography hierarchy stay consistent?

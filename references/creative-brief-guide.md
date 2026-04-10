@@ -15,11 +15,13 @@ A concept must be specific to THIS product. Apply the competitor swap test:
 > If you can replace the brand name with a competitor's name and the concept still works, it's too generic. Start over.
 
 **Generic (fails the test):**
+
 - "Innovation that matters" — could be literally any tech company
 - "Your trusted partner" — could be a bank, a law firm, or a tire company
 - "Simple, powerful, beautiful" — Apple, Notion, and 10,000 other brands
 
 **Specific (passes the test):**
+
 - **1Password:** "Your memory is for moments, not passwords" — only works for a password manager
 - **Proofly:** "In a world where seeing isn't believing, proof is power" — only works for a verification tool
 - **Duolingo:** "The guilt trip that actually teaches you Spanish" — only works for a gamified language app
@@ -185,24 +187,29 @@ Start with the Brand Narrative from Phase 1, then work through these prompts:
 ## Common Creative Brief Mistakes
 
 ### 1. The Non-Concept
+
 "We want to create engaging content that showcases our product and drives awareness."
 
 This isn't a concept — it's a job description. A concept is an IDEA, not an objective.
 
 ### 2. The Feature Masquerading as a Concept
+
 "Proofly uses advanced AI to detect generated images with 94% accuracy."
 
 This is a feature, not a concept. Features answer "what." Concepts answer "why should I care?"
 
 ### 3. The Generic Emotional Appeal
+
 "Empowering people to make better decisions."
 
 Could be a bank, a nutrition app, or a horoscope site. Specificity is everything.
 
 ### 4. The Missing Narrative Arc
+
 Having a great concept but no story progression. If every post says the same thing from a different angle, the audience gets bored by Day 3. The narrative must BUILD.
 
 ### 5. The Visual Afterthought
+
 Defining the concept and narrative but leaving visuals as "use brand colors and make it look nice." The Visual Identity System is what makes a campaign recognizable as a campaign — not just a collection of posts.
 
 ---

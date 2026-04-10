@@ -59,7 +59,7 @@ Caption Frameworks Enhancement
 
 Initial public release.
 
-### Added
+### Features
 
 Core Skill (SKILL.md)
 
