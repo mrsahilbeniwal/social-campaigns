@@ -9,7 +9,7 @@ Quick reference for image dimensions, character limits, and posting best practic
 ### Instagram Image Dimensions
 
 | Format | Dimensions | Aspect Ratio |
-|--------|-----------|--------------| 
+|--------|-----------|--------------|
 | Square Post | 1080 × 1080 px | 1:1 |
 | Portrait Post | 1080 × 1350 px | 4:5 (recommended) |
 | Landscape Post | 1080 × 566 px | 1.91:1 |
@@ -37,7 +37,7 @@ Quick reference for image dimensions, character limits, and posting best practic
 ### LinkedIn Image Dimensions
 
 | Format | Dimensions | Aspect Ratio |
-|--------|-----------|--------------| 
+|--------|-----------|--------------|
 | Single Image | 1200 × 627 px | 1.91:1 |
 | Square Image | 1080 × 1080 px | 1:1 |
 | Portrait Image | 1080 × 1350 px | 4:5 |
@@ -64,7 +64,7 @@ Quick reference for image dimensions, character limits, and posting best practic
 ### Twitter Image Dimensions
 
 | Format | Dimensions | Aspect Ratio |
-|--------|-----------|--------------| 
+|--------|-----------|--------------|
 | Single Image | 1200 × 675 px | 16:9 |
 | Two Images | 700 × 800 px each | 7:8 |
 | Four Images | 700 × 800 px each | 7:8 |
@@ -90,7 +90,7 @@ Quick reference for image dimensions, character limits, and posting best practic
 ### Facebook Image Dimensions
 
 | Format | Dimensions | Aspect Ratio |
-|--------|-----------|--------------| 
+|--------|-----------|--------------|
 | Feed Image | 1200 × 630 px | 1.91:1 |
 | Square Post | 1080 × 1080 px | 1:1 |
 | Story | 1080 × 1920 px | 9:16 |
@@ -116,7 +116,7 @@ Quick reference for image dimensions, character limits, and posting best practic
 ### TikTok Video Dimensions
 
 | Format | Dimensions | Aspect Ratio |
-|--------|-----------|--------------| 
+|--------|-----------|--------------|
 | Standard Video | 1080 × 1920 px | 9:16 |
 | Photo Post | 1080 × 1920 px | 9:16 |
 
@@ -141,7 +141,7 @@ Quick reference for image dimensions, character limits, and posting best practic
 ### Pinterest Image Dimensions
 
 | Format | Dimensions | Aspect Ratio |
-|--------|-----------|--------------| 
+|--------|-----------|--------------|
 | Standard Pin | 1000 × 1500 px | 2:3 |
 | Square Pin | 1000 × 1000 px | 1:1 |
 | Idea Pin (Story) | 1080 × 1920 px | 9:16 |
