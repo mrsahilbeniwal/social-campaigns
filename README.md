@@ -91,7 +91,7 @@ After installing, use these in your AI coding assistant. 12 commands total, work
 
 | Command | What You Say | What Happens |
 |---------|-------------|--------------|
-| `campaign full` | "Create a social media campaign for this project" | Full 5-phase workflow: audit, research, strategy, generate, iterate |
+| `campaign full` | "Create a social media campaign for this project" | Full 6-phase workflow: audit, research, strategy, creative brief, generate, iterate |
 | `campaign launch` | "I'm launching v2.0 next week — create a launch campaign" | Launch sequence: teasers, sneak peek, countdown, launch, results |
 | `campaign refresh` | "I need fresh content for next week" | New content using your existing brand profile |
 | `campaign single` | "Create one Instagram post about our new pricing" | 1 polished post with image + caption |
@@ -105,6 +105,7 @@ After installing, use these in your AI coding assistant. 12 commands total, work
 | `campaign brand-audit` | "Scan my project and extract the brand identity" | `social-campaign/brand-profile.md` |
 | `campaign competitors` | "Research my top 5 competitors" | `social-campaign/competitor-analysis.md` |
 | `campaign strategy` | "Build a content strategy for my brand" | `social-campaign/content-strategy.md` |
+| `campaign brief` | "Develop the campaign's creative concept" | `social-campaign/creative-brief.md` |
 | `campaign generate` | "Generate the actual images and captions" | `social-campaign/content/` folder |
 | `campaign iterate` | "Create A/B variants of my best posts" | Variants, repurposing, multi-language |
 
@@ -131,7 +132,7 @@ You don't have to type these commands exactly. The AI agent understands natural 
 
 ## How It Works
 
-Social Campaign follows a 5-phase process. There's a human checkpoint between each phase so you stay in control:
+Social Campaign follows a 6-phase process. There's a mandatory human approval gate between each phase — the agent stops and waits for your sign-off before proceeding:
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
@@ -143,30 +144,42 @@ Social Campaign follows a 5-phase process. There's a human checkpoint between ea
               ┌─────────────────────────┐
               │  PHASE 1: Brand Audit   │
               │  Scan → Extract → Map   │
+              │  + Narrative Synthesis   │
               │  brand-profile.md       │
               └────────────┬────────────┘
-                           │ User confirms
+                           │ ⛔ User approves
                            ▼
               ┌─────────────────────────┐
               │  PHASE 2: Competitor    │
               │  Research → Analyze     │
               │  competitor-analysis.md │
               └────────────┬────────────┘
-                           │ User reviews
+                           │ ⛔ User approves
                            ▼
               ┌─────────────────────────┐
               │  PHASE 3: Strategy      │
               │  Pillars · Calendar     │
               │  content-strategy.md    │
               └────────────┬────────────┘
-                           │ User approves
+                           │ ⛔ User approves
+                           ▼
+              ┌─────────────────────────┐
+              │  PHASE 3B: Creative     │
+              │  Brief — Campaign       │
+              │  Concept · Narrative    │
+              │  Arc · Visual System    │
+              │  creative-brief.md      │
+              └────────────┬────────────┘
+                           │ ⛔ User approves
                            ▼
               ┌─────────────────────────┐
               │  PHASE 4: Generate      │
-              │  Images · Captions      │
+              │  Preview 1st post →     │
+              │  ⛔ Approve direction → │
+              │  Batch remaining posts  │
               │  content/week-1/...     │
               └────────────┬────────────┘
-                           │ User reviews
+                           │ ⛔ User reviews
                            ▼
               ┌─────────────────────────┐
               │  PHASE 5: Iterate       │
@@ -205,14 +218,24 @@ Combining brand DNA and competitive insights, it creates:
 - Caption guidelines matching your brand voice
 - KPIs and goals to track progress
 
+### Phase 3B — Creative Brief
+
+The creative quality engine. Before generating a single image or caption, it develops:
+
+- **Campaign concept** — One sentence that unifies the entire campaign (tested with the Competitor Swap Test)
+- **Narrative arc** — A 5-act story that builds across 2 weeks: Wake-Up → Deeper Truth → Answer Exists → How It Works → Social Proof
+- **Visual identity system** — Recurring motifs, color rules, typography hierarchy, and visual don'ts
+- **Concept-to-post mapping** — Every post defines its campaign role, emotional beat, visual hook, caption hook, and core moment
+
 ### Phase 4 — Content Generation
 
-Using AI image generation, it produces:
+Using AI image generation with a three-layer prompt system (Concept Anchor → Emotional Intent → Visual Execution), it produces:
 
-- On-brand visuals for every post in the calendar
+- **Concept-anchored visuals** — Every image expresses the campaign idea, not just brand colors
+- **Cohesive caption-image pairs** — Each post starts with a Core Moment that both the image and caption serve
+- **Creative direction preview** — First post generated and presented for approval before the full batch
 - Platform-optimized captions with Hook, Value, CTA structure
 - Alt text for accessibility
-- Platform-specific adaptations (same content, different format)
 - Organized in a clean directory structure
 
 ### Phase 5 — Iteration and Optimization
@@ -228,14 +251,15 @@ After running a full campaign, your project gets a `social-campaign/` directory:
 
 ```
 social-campaign/
-├── brand-profile.md              ← Your brand DNA, extracted from code
+├── brand-profile.md              ← Brand DNA + narrative synthesis
 ├── competitor-analysis.md        ← Deep competitive research
 ├── content-strategy.md           ← Full marketing strategy
+├── creative-brief.md             ← Campaign concept + narrative arc
 ├── content/
 │   ├── week-1/
 │   │   ├── mon-product-spotlight/
-│   │   │   ├── image.png         ← AI-generated visual
-│   │   │   ├── caption.md        ← Platform-ready caption
+│   │   │   ├── image.png         ← Concept-anchored visual
+│   │   │   ├── caption.md        ← Cohesive caption (paired with image)
 │   │   │   └── alt-text.txt      ← Accessibility text
 │   │   ├── tue-thought-leadership/
 │   │   │   └── ...
@@ -307,10 +331,11 @@ The skill comes with a reference library that the AI uses during content generat
 | Reference File | What It Contains |
 |---------------|------------------|
 | `references/platform-specs.md` | Image dimensions, character limits, and best practices for Instagram, LinkedIn, Twitter/X, Facebook, TikTok, and Pinterest |
-| `references/prompt-templates.md` | 8+ image generation prompt templates: product showcases, testimonials, carousels, announcements, comparisons, data visualizations, and more |
+| `references/prompt-templates.md` | Three-layer prompt system (Concept Anchor → Emotional Intent → Visual Execution) with 8+ templates, good/bad examples, and quality checklist |
 | `references/content-pillars.md` | Industry-specific content pillar templates for e-commerce, SaaS, agencies, personal brands, and local businesses |
 | `references/campaign-types.md` | Step-by-step playbooks for product launches, always-on campaigns, seasonal events, engagement growth, and crisis response |
-| `references/caption-frameworks.md` | Proven caption formulas: PAS, story arc, list format, bold claims, questions, micro-value drops — plus platform-specific adaptations and 10+ hook templates |
+| `references/caption-frameworks.md` | Caption-Image Cohesion System, 6 cohesion patterns, 8 caption frameworks, 10+ hook templates, and anti-pattern documentation |
+| `references/creative-brief-guide.md` | 3 complete example creative briefs (SaaS, E-Commerce, Personal Brand), concept development methodology, validation checklist |
 
 Want to go deeper? Check out the [docs/](docs/) folder for [advanced usage](docs/advanced-usage.md), [supported frameworks](docs/supported-frameworks.md), and [FAQ](docs/faq.md).
 

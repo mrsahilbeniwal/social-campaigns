@@ -1,6 +1,52 @@
 # Caption Writing Frameworks
 
-Proven caption formulas that work across platforms. Fill in the blanks with brand-specific content. Each framework includes the psychology behind it and when to use it.
+Proven caption formulas that work across platforms. Each framework includes the psychology behind it, when to use it, and how to connect it to the image.
+
+**Before choosing a framework, read the Cohesion System below.** Every caption must be designed together with its image — choosing a framework is step 2, not step 1.
+
+---
+
+## Caption-Image Cohesion System
+
+This is the most important section in this document. A caption and its image are not separate deliverables — they are two halves of the same moment.
+
+### The Core Moment Method
+
+Before writing a caption OR an image prompt, define the post's **Core Moment**:
+
+1. **What is the ONE idea this post communicates?** State it in one sentence.
+2. **The image shows it visually.** What does the viewer SEE that expresses this idea?
+3. **The caption unpacks it verbally.** What does the viewer READ that deepens the idea?
+4. **The hook line is a voice-over.** The first line of the caption should feel like natural narration of the image — as if someone is looking at the image and saying something about it.
+
+### Cohesion Patterns
+
+| Pattern | Image Does | Caption Does | Example |
+|---------|-----------|-------------|---------|
+| **Question → Answer** | Creates a question visually | Answers (or deepens) the question | Image: two identical photos side-by-side. Caption: "One is real. One is AI." |
+| **Show → Tell** | Shows a result or scene | Explains the story behind it | Image: verification scan result. Caption: "3 seconds. That's all it takes to know the truth." |
+| **Tension → Release** | Creates visual unease | Provides the resolution | Image: wall of "UNVERIFIED" stamps on viral images. Caption: "You've shared at least one of these." |
+| **Number → Meaning** | Shows a bold statistic | Explains why it matters to YOU | Image: "84%" in huge type. Caption: "That's how many viral images show signs of manipulation." |
+| **Process → Purpose** | Shows HOW something works | Explains WHY it matters | Image: step-by-step scan flow. Caption: "Because in 2025, your eyes aren't enough." |
+| **Contrast → Choice** | Shows before/after or either/or | Frames the choice for the reader | Image: split screen uncertain vs verified. Caption: "Which side do you want to be on?" |
+
+### Anti-Patterns (What Disconnected Content Looks Like)
+
+| Bad Pattern | Why It Fails | Fix |
+|-------------|-------------|-----|
+| Image is branded graphic with logo. Caption discusses a statistic. | They're two separate ideas wearing the same colors | Start with the Core Moment — what's the ONE idea? |
+| Image is beautiful but abstract. Caption is about a product feature. | The image doesn't CREATE anything for the caption to build on | The image must set up the caption's hook |
+| Caption hook has nothing to do with what's shown in the image | The viewer sees one thing and reads another — cognitive dissonance | Write the hook as a voice-over for the image |
+| Generic motivational image with product-specific caption | The image could belong to any brand | Image must express THIS campaign's concept |
+
+### Workflow: How to Create Cohesive Posts
+
+1. Start with the **Core Moment** from the Creative Brief's concept-to-post mapping
+2. Write a one-sentence description of what the viewer should FEEL when they see this post
+3. Draft the **image concept** — what visual creates that feeling?
+4. Draft the **caption hook** — what line would you say if you were narrating the image?
+5. Then choose a **caption framework** (below) and finish the caption
+6. Read the final caption while looking at the image — do they feel inseparable?
 
 ---
 
