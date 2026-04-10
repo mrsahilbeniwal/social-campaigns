@@ -1,0 +1,24 @@
+# Generated content (user-specific, not part of the skill)
+social-campaign/brand-profile.md
+social-campaign/competitor-analysis.md
+social-campaign/content-strategy.md
+social-campaign/content/
+social-campaign/reports/
+social-campaign/assets/color-palette.md
+social-campaign/assets/hashtag-library.md
+social-campaign/image-prompts/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
